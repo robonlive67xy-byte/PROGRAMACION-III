@@ -75,7 +75,7 @@ print(f"Usar agente minimizar:        {usar_agente_minimizar}")
 print(f"Usar agente no_vacios:        {usar_agente_no_vacios}")
 print(f"Usar agente low:              {usar_low_penalitation}")
 print(f"Usar agente estabilizador: {usar_stability}")
-if usar_agente_base or usar_agente_base_le or usar_agente_minimizar:
+if usar_agente_base or usar_agente_base_le or usar_agente_minimizar or usar_stability or usar_low_penalitation:
     print(f"Target de créditos por semestre: {target_creditos}")
 print()
 
